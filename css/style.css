@@ -1,0 +1,1268 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:wght@100&display=swap');
+
+
+*{margin: 0;padding: 0;}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: :16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/*---------- topBar Start-------------*/
+.topBarWrapper{
+	overflow: hidden;
+	background: #f5f5f5;
+}
+.topWrapper {
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    overflow: hidden;
+    margin: auto;
+ 
+}
+.phone {
+    width: 230px;
+    float: left;
+    padding: 15px 10px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.email {
+    width: 728px;
+    float: left;
+    padding: 15px 10px;
+}
+.phone i, .email i{
+	color:#ff5200;
+}
+
+.social {
+    width: 140px;
+    float: left;
+    transition: 0.5s;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #4a4646;
+}
+.social a:first-child{
+	border-left: 1px solid #ddd;
+}
+.social a:hover{
+	color:#ff5200;
+}
+.primary-menu{
+	overflow: hidden;
+}
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 19px;
+}
+.main-menu ul{
+	float: right;
+}
+#homeColor a{
+	color: #ff5200;
+}
+.main-menu ul li {
+    display: inline-block;
+    float: left;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	font-family: oswald;
+	display: block;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 30px 18px;
+	transition: 0.5s;
+	letter-spacing: .08em;
+	color: #000;
+}
+.main-menu ul li a:hover{
+	color:#FF5200;
+}
+
+/*---------- topBar End-------------*/
+/*---------- SliderSection Start-------------*/
+.homeSlider{
+	background: linear-gradient(#00000024,#00000026),url(../images/slide-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	background-size: cover;
+}
+.sliderContent{
+	width: 600px;
+}
+.sliderContent h1 {
+   
+font-size: 50px;
+   
+text-transform: uppercase;
+   
+color: white;
+   
+margin-top: 110px;
+   
+margin-bottom: 20px;
+}
+
+.sliderContent p {
+  
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+button.workBtn {
+    padding: 15px 39px;
+    color: white;
+    background: #ff5200;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 130px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+button.workBtn:hover{
+	background: black
+}
+.sliderBtn {
+    width: 56px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sliderBtn span {
+    width: 8px;
+    height: 8px;
+    border: 4px solid #bdbdbd;
+    display: block;
+    border-radius: 100%;
+    float: left;
+    margin: 5px;
+}
+.sliderBtn span:last-child {
+    background: #ff5200;
+    border: 4px solid #ff5200;
+}
+
+/*---------- SliderSection End-------------*/
+
+/*---------- Service Section Start-------------*/
+
+section.service {
+    background: #f5f6f6;
+}
+
+.boxWrapper {
+    overflow: hidden;
+}
+
+.singleBox {
+    width: 220px;
+    padding: 20px;
+    margin: 90px 0px;
+    background: white;
+    border: 1px solid #ddd;
+    float:left;
+    border-radius: 4px;
+}
+.sboxIcon {
+    font-size: 45px;
+    color: #fb5200;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sboxTitle {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 1px;
+    color: #565555;
+}
+
+.sboxDes {
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 24px;
+    color: #333;
+}
+
+
+.sboxLink a {
+    text-align: center;
+}
+
+.sboxLink {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sboxLink a {
+    text-decoration: none;
+    color: #fb5200;
+}
+
+.sboxLink i{
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+#pd-right{
+	margin-right: 30px;
+}
+
+.active-box{
+	background: #fb5200 !important;
+
+}
+.active-box h5{
+	color:white !important;
+}
+.active-box i{
+	color:white !important;
+}
+.active-box a{
+	color:white !important;
+}
+.active-box p{
+	color:white !important;
+}
+
+.singleBox:hover{
+	background: #fb5200;
+	cursor: pointer;
+}
+
+.singleBox:hover i{
+	color:white;
+}
+.singleBox:hover h5{
+	color:white;
+}
+
+.singleBox:hover a{
+	color:white;
+}
+.singleBox:hover p{
+	color:white;
+}
+
+
+
+/*---------- Service Section End-------------*/
+
+
+/*---------- OurTeam Section Start------------*/
+
+
+
+.teamWrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.teamImg {
+    width: 550px;
+    float: left;
+}
+
+.teamImg img {
+    width: 100%;
+}
+
+.teamContent {
+    width: 540px;
+    float: left;
+    margin-left: 50px;
+}
+
+.teamTitle h2 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.teamWrapper {
+    margin-top: 80px;
+}
+
+.teamTitle p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+ul.leftUl {
+    list-style: none;
+    float: left;
+    margin-right: 90px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+ul.rightUl {
+    list-style: none;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+ul.rightUl li a {
+    color: #222;
+    text-decoration: none;
+    
+}
+
+ul.leftUl li a {
+    color: #222;
+    text-decoration: none;
+
+}
+
+ul.rightUl a:hover{
+	color: #fb5200;
+}
+ul.leftUl a:hover{
+	color: #fb5200;
+}
+.ourTeamBtn {
+    width: 150px;
+    background: #fb5200;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.ourTeamBtn:hover{
+	background: rgb(37,37,37);
+	color:white;
+}
+.ourTeamBtn a {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+ul.leftUl li a i {
+    color: #c5c5c5;
+    margin-right: 10px;
+}
+
+ul.rightUl li a i {
+    color: #c5c5c5;
+    margin-right: 10px;
+}
+
+
+/*---------- OurTeam Section End-------------*/
+
+
+
+/*---------- Counter Section Start-------------*/
+
+
+.counterSection {
+    background: linear-gradient(rgb(41 36 36 / 63%), rgb(60 52 52 / 82%)),url(../images/why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 90px;
+}
+
+.singleCounter {
+    width: 250px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.singleCounter i {
+    font-size: 50px;
+    padding: 20px;
+    color:white;
+}
+
+.singleCounter h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.singleCounter h2 {
+    letter-spacing: -1px;
+}
+
+.countSectionWrapper {
+    overflow: hidden;
+    margin: 90px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*---------- Counter Section End-------------*/
+
+/*---------- blogPost Section Start-------------*/
+
+
+section.blogPost {
+    background: #f5f6f6;
+    overflow: hidden;
+}
+
+.secTitle {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.secTitle h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.secTitle p {color: #666;margin-bottom: 50px;}
+
+.secTitle h2:after {
+	content: "";
+	position: absolute;
+	bottom: 101px;
+	background: #fb5200;
+	width: 70px;
+	border: 1.5px solid #fb5200;
+	transform: translateX(-32px);
+	left: 50%;
+}
+.singleBlog {
+    width: 262px;
+    float: left;
+    margin-right: 30px;
+}
+
+.blogContent {
+    overflow: hidden;
+}
+
+.blogImg {
+    width: 100%;
+}
+
+.blogImg img {
+    width: 100%;
+}
+
+.blogInfo h3 {
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.blogInfo p {
+    color: #666;
+    margin-bottom: 90px;
+}
+.singleBlog:last-child {
+    margin-right: 0px;
+}
+/*---------- blogpost Section End-------------*/
+
+/*---------- Pricing Section Start-------------*/
+
+.priceBox {
+    overflow: hidden;
+    background: #fbfbfb;
+}
+
+.priceSingleBox {
+    float: left;
+    width: 291px;
+    border: 1px solid #efebeb;
+    background: white;
+    padding: 30px;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.priceSingleBox h3 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.priceSingleBox h1 {
+    font-family: arial black;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.priceSingleBox h1 span {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.priceSingleBox ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.priceSingleBox ul li {
+    line-height: 35px;
+    color: #777;
+}
+
+.priceSingleBox ul li i {
+    font-size: 13px;
+    color: #fb5200;
+    margin-right: 4px;
+}
+
+button.pricBtn {
+    background: #fb5200;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: oswald;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.priceSingleBox:first-child {
+    margin-left: 10px;
+}
+
+.priceSingleBox:last-child {
+    margin-right: 10px;
+}
+
+button.pricBtn:hover{
+	background: #222;
+	color:white;
+	cursor: pointer;
+}
+
+/*---------- Pricing Section End-------------*/
+
+
+/*---------- Idea Section Start-------------*/
+
+section.ideas {
+    overflow: hidden;
+    position: relative;
+    margin-top: 90px;
+}
+
+.ideasImg {
+	background-image: url(../images/s02.jpg);
+	width: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+}
+
+.rightContent {
+    width: 50%;
+    float: right;
+    background: #222222;
+    color: white;
+}
+
+.ideaTitle {
+    padding: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.ideaTitle h2 {
+    font-size: 35px;
+}
+
+.ideaTitle p {
+    margin: 12px 0px;
+}
+
+.ideablog {
+    padding: 0px 70px;
+    overflow: hidden;
+}
+
+.singleIdea {
+    overflow: hidden;
+    width: 245px;
+    float: left;
+    transition: all 1s ease-in;
+}
+.singleIdea:hover a{
+	color:#fb5200;
+}
+.singleIdeaIcon {
+    width: 50px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 70px;
+}
+
+.singleIdeaIcon i {
+    font-size: 50px;
+    color: #fb5200;
+    float: left;
+    margin-top: 15px;
+}
+
+.singleIdeaInfo {
+    width: 155px;
+    float: left;
+}
+.singleIdeaInfo h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.singleIdeaInfo h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.singleIdeaInfo h5 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: inherit;
+}
+
+
+/*---------- Idea Section End-------------*/
+
+/*---------- OurTeam Section End-------------*/
+
+.personBlog {
+    overflow: hidden;
+}
+
+.singlePerson {
+    width: 255px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+.personImg {
+	width: 100%;
+	position: relative;
+	transition: all .5s;
+
+}
+
+
+
+.personImg img {
+    width: 100%;
+    float: left;
+}
+
+.personInfo {
+    text-align: center;
+    border-left: 1px solid #ddd;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    float: left;
+    width: 253px;
+    overflow: hidden;
+}
+
+.personInfo h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.personInfo p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+.jointeamBtn {
+    padding: 56px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+button.joinOurTeamBtn {
+    padding: 15px 40px;
+    color: white;
+    background: #222;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 16px;
+    word-spacing: 3px;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.7s;
+}
+.joinOurTeamBtn:hover{
+	background: #fb5200;
+	color:white;
+}
+
+.socialIcons {
+    position: absolute;
+    left: 0;
+    top: 165px;
+    transform: translateX(50px);
+}
+
+.socialIcons a {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  	text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+.socialIcons a i {
+    text-align: center;
+    color: white;
+    transition: 0.4s;
+}
+
+.socialIcons a:first-child{
+	background:#3b5998;
+	transition: .8s;
+	opacity: 0;
+}
+.socialIcons a:nth-child(2){
+	background:#00acee;
+	transition: .6s;
+	opacity: 0;
+}
+.socialIcons a:nth-child(3){
+	background:#db4a39;
+	transition: .4s;
+	opacity: 0;
+}
+.socialIcons a:last-child{
+	background:#0e76a8;
+	transition: .2s;
+	opacity: 0;
+}
+
+.socialIcons a:hover{
+	background: white;	
+}
+.socialIcons a:hover i{
+	color: black;
+}
+.personImg:hover .socialIcons a:nth-child(1){
+	transform: translateY(20px);
+	opacity: 1;
+}
+.personImg:hover .socialIcons a:nth-child(2){
+	transform: translateY(20px);
+	opacity: 1;
+}
+.personImg:hover .socialIcons a:nth-child(3){
+	transform: translateY(20px);
+	opacity: 1;
+}
+.personImg:hover .socialIcons a:nth-child(4){
+	transform: translateY(20px);
+	opacity: 1;
+}
+
+/*---------- OurTeam Section End-------------*/
+
+/*---------- Our Project Section Start-------------*/
+
+.ourProject{
+	background: #f5f6f6;
+}
+.singleProject {
+    width: 360px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.singleProjectWrapper{
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.singleProject:nth-child(3){
+	margin-right: 0px;
+}
+.singleProject:nth-child(6){
+	margin-right: 0px;
+}
+
+.singleProject img {
+    width: 100%;
+}
+
+.projectInfo {
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 85px;
+    bottom: 0;
+    color: white;
+    padding: 30px;
+}
+
+.projectInfo {}
+
+.projectLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.projectInfo {
+    background: linear-gradient(transparent,black);
+    transform: translateY(58px);
+    transition: 0.3s;
+}
+.projectInfo h2 {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.projectInfo h1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+
+.projectLinks a {
+    padding: 10px 0px;
+}
+
+.projectLinks {
+    margin-top: -2px;
+    transform: translateX(-9990px);
+    transition: 0.3s ease;
+}
+.projectLinks a i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.singleProject:hover .projectInfo{
+	  transform: translateY(-.2px);
+}
+
+.singleProject:hover .projectLinks{
+	  transform: translateY(20px);
+}
+
+
+/*---------- Our Project Section End-------------*/
+
+/*---------- Our News Section Start-------------*/
+
+.newsBlogWrapper {
+    overflow: hidden;
+}
+
+.singleNewsBlog {
+    overflow: hidden;
+    width: 360px;
+    float: left;
+    margin-right: 30px;
+}
+.newsBlogImg {
+    width: 100%;
+    overflow: hidden;
+}
+
+.newsBlogImg img {
+    width: 100%;
+    float: left;
+    transition: .8s;
+}
+
+.newsBlogInfo {
+    padding: 25px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+
+.comments {color: #666;margin-bottom: 15px;font-size: 14px;}
+.comments span::after {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 2px;
+	background: #fb5200;
+	margin-left: 12px;
+	margin-top: 7px;
+}
+
+.comments span {
+    margin-right: 36px;
+}
+.newsBlogInfo h2 {
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+.newsBlogInfo a {
+    color: black;
+    text-decoration: none;
+}
+
+.newsBlogInfo p {
+    color: #666;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.newsLink a {
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 500;
+}
+
+.newsLink a i {
+    margin-left: 10px;
+    font-size: 13px;
+}
+.singleNewsBlog:last-child {
+    margin-right: 0px;
+}
+
+.singleNewsBlog:hover .newsBlogImg img{
+	transform: scale(1.1);
+}
+
+
+
+/*---------- Our News Section End-------------*/
+
+
+
+/*---------- Footer Section Start-------------*/
+
+
+footer.footerSection {
+    background: #1a1a1a;
+    color: white;
+}
+
+.footerBlog {
+    margin-top: 150px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.footerSingleBlog {
+    width: 280px;
+    float: left;
+}
+
+.footerSingleBlog h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footerSingleBlog p {
+    line-height: 22px;
+    color: #bbb3b3;
+    margin-bottom: 30px;
+    font-size: 15px;
+    width: 243px;
+}
+.footerBottom {
+    overflow: hidden;
+    padding: 30px 0px;
+    border-top: 1px solid #585858;
+}
+
+.fleftContent {
+    width: 50%;
+    float: left;
+}
+
+.frightContent {
+    width: 50%;
+    float: left;
+}
+
+.fleftContent p {
+    color: #999;
+}
+
+.frightContent ul {
+    list-style: none;
+    float: right;
+}
+
+.frightContent ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.frightContent ul li a {
+    text-decoration: none;
+    color: #d2cdcd;
+}
+
+.frightContent ul li:last-child {
+    margin-right: 0px;
+}
+.footerSocial a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    color: #d0c4c4;
+    transition: .5s;
+}
+
+.footerSocial a:hover{
+	color:#fb5200;
+}
+.contactList {overflow: hidden;}
+
+.singleContact {
+    width: 250px;
+}
+
+.sLeftContact {
+    width: 30px;
+    float: left;
+}
+
+.sLeftContact i {
+    color: #fb5200;
+}
+
+.sRightContact {
+    float: left;
+    width: 220px;
+    margin-bottom: -17px;
+}
+.footerSingleBlog ul {
+    list-style: none;
+}
+
+.footerSingleBlog ul li {
+    margin-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px dashed #696767;
+    padding-bottom: 3px;
+}
+
+.footerSingleBlog ul li a {
+    text-decoration: none;
+    color: #bbb7b7;
+    transition: 0.5s;
+}
+.footerSingleBlog:nth-child(3) {
+    width: 260px;
+    margin-right: 20px;
+}
+.footerSingleBlog ul li i {font-size: 14px;color: #c5b1b1;margin-right: 10px;}
+
+.footerSingleBlog ul li a:hover{
+	color: #fb5200;
+}
+.footerSingleBlog:nth-child(2){
+	margin-left: 0px;
+}
+.footerSingleBlog:nth-child(4){
+	margin-left: 20px;
+}
+.postContent {
+    overflow: hidden;
+}
+
+.singlepost {
+    overflow: hidden;
+    width: 250px;
+}
+
+.leftPost {
+    width: 50px;
+    background: #313131;
+    border-radius: 3px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.leftPost h3 {
+    font-size: 28px;
+}
+
+.leftPost h5 {
+    font-size: 10px;
+    padding: 0px 5px;
+    padding-bottom: 6px;
+}
+.rightPost {
+    float: left;
+    width: 185px;
+}
+
+
+.rightPost h3 {
+    font-size: 15px;
+    padding-bottom: 11px;
+    
+}
+
+.rightPost h3 a {
+    text-decoration: none;
+    color: #cabbbb;
+    transition: 0.5s;
+}
+.rightPost h3:hover a{
+	color:#fb5200;
+}
+
+.rightPost p {
+    font-size: 12px;
+}
+
+.rightPost p i {
+    margin-right: 5px;
+}
+
+.rightPost span {
+    margin-left: 10px;
+}
+/*---------- Footer Section End-------------*/
+
+/*---------- Mail Section Start-------------*/
+section.contactMailSection {
+    overflow: inherit;
+    position: relative;
+    margin-top: 90px;
+    z-index: 1;
+    margin-bottom: -70px;
+}
+
+.contactMailWrapper {
+    overflow: hidden;
+    background: #fb5200;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.singleMail {
+    overflow: hidden;
+    width: 340px;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+
+.singleMail h2 {color: white;font-weight: 500;margin-bottom: 10px;}
+
+.subsBtn button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 65px;
+    width: 100px;
+    z-index: 2;
+    border-radius: 100px;
+    border: none;
+    background: #222;
+    color: white;
+}
+
+.subsBtn input {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    width: 224px;
+}
+
+.subsBtn {
+    position: relative;
+    overflow: hidden;
+}
+.singleMail p {
+    color: white;
+    line-height: 25px;
+}
+
+.mailSocial {
+    width: 340px;
+}
+
+.mailSocial a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-right: 10px;
+    background: transparent;
+    transition: 0.5s;
+}
+.mailSocial a:hover{
+	background:white;
+	color: black;
+}
+.mailSocial a i {
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    margin-top: 7px;
+}
+
+/*---------- Mail Section End-------------*/
